@@ -42,6 +42,19 @@ IMG.displayed {
     margin-left: auto;
     margin-right: auto 
 }
+.movement{
+position: relative;
+-webkit-animation: mymove 2s infinite;
+animation: mymove 2s infinite;
+}
+@-webkit-keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+}
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+}
 </style>
 <!--end of header-->
 <div class="container">
@@ -63,7 +76,7 @@ IMG.displayed {
 							<h1 class="text-center">Home</h1>
 							<h3 class="text-center">Recent</h3>
 							<p>Welcome to Anonymous001.GitHub.io</p>
-							<img class="displayed" alt="Celebration!!!" src="http://cdn.cl9.vanillaforums.com/thebump.vanillaforums.com/FileUpload/20/c185040d023447d64940ae284ca52a.gif"/>
+							<img class="displayed movement" alt="Celebration!!!" src="http://cdn.cl9.vanillaforums.com/thebump.vanillaforums.com/FileUpload/20/c185040d023447d64940ae284ca52a.gif"/>
 						</div>
 					</div>
 				</div>
