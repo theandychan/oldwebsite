@@ -41,6 +41,26 @@
 	.box{
 		@brand-warning: #f0ad4e;
 	}
+	.jumbotron {
+		position: relative;
+     		background: none;
+     		padding: 5px;
+     		margin-bottom: 5px;
+     		font-size: 10px;
+     		font-weight: 200;
+     		line-height: 2.1428571435;
+ 	}
+ 	.jumbotron:after {
+     		content:"";
+     		background: url("http://rebecca-sommers-giek.healthcoach.integrativenutrition.com/sites/default/files/styles/650x390/public/content_images/walking_path.jpg");
+     		opacity: 0.2;
+     		top: 0;
+     		left: 0;
+     		bottom: 0;
+     		right: 0;
+     		position: absolute;
+		z-index: -1;
+ 	}
 </script>
 <!--end of header-->
 <div class = "container">
@@ -63,7 +83,7 @@
 								</div>
 							</div>
 							<div class="container-fluid">
-								<div class="jumbotron" style="background-image: url(http://rebecca-sommers-giek.healthcoach.integrativenutrition.com/sites/default/files/styles/650x390/public/content_images/walking_path.jpg)"; background-size: "100%"; background-repeat:"no-repeat";>
+								<div class="jumbotron">
 									<h1 class="text-center fluid-container box success"><br><br><br><br><br><br><br>The start of an awesome website. <br><br><br><br><br><br><br><br></h1>
 									<p class="text-right fluid-right box">9/17/14</p>
 								</div>
